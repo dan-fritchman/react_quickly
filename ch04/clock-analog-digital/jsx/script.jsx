@@ -8,7 +8,7 @@ const AnalogDisplay = function (props) {
         height: 200,
         borderRadius: 20000,
         borderStyle: 'solid',
-        borderColor: 'black'
+        borderColor: 'green'
     };
     let secondHandDegrees = (date.getSeconds() / 60 * 360 - 90).toString();
     let secondHandStyle = {
